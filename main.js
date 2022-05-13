@@ -55,12 +55,3 @@ function billedFun()
         document.querySelector( ".circle" ).style.left = 0;
     }
 }
- let but = document.querySelector( ".input" );
-function submit(){
-    but.submit;
-}
-function focus(){
-    let a = document.querySelector( ".em" ).style.outline = "none";  
-        console.log( document.querySelector( ".em" ).style.border="none");
-}
- 
