@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/normlize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,400;0,600;0,700;1,200;1,400;1,600&family=Fredoka:wght@300;400;500&family=Inter:wght@200;400;500;600;700&family=Karla:ital,wght@0,200;0,400;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Lora&family=Noto+Serif:ital@1&family=Open+Sans&family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@400;600&family=Rubik:wght@400;500;700&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    
+    <title>TimeNow Starter Files</title>
+</head>
+<body>
+            <div class="overlay" onclick="hideMenu()"></div>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/Logo.svg" alt="log">
+            </div>
+            <div class="box"> 
+                <div class="links">
+                    <a href="#" onclick="featurePage()">Features</a>
+                    <a href="#" onclick="pricingPage()">Pricing</a>
+                </div>
+                <p class="button" >Start Scheduling</p>
+            </div>
+            <img src="images/Hamburger Menu.svg" class="menu" onclick="show()" alt="">
+        </div>
+    </div>
+    <div class="sec_one">
+        <div class="text">
+                <p class="h1">Post when your audience is most active.</p>
+                <p class="subText">With TimeNow, automatically schedule your posts on Twitter , LinkedIn, and instagram to post when your followers are most active. </p>
+            <div class="divDemo">
+                <p class="button">Start Scheduling</p>
+                <a href="#" class="Demo">View divDemo
+                <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        
+            <div class="lernMore">
+                <img src="images/Shield.svg" alt="img"> 
+                <span class="subText">TimeNow does not sell your data. <a href="#">learn more</a> </span>
+            </div>
+        </div>
+        
+        <div class="image">
+            <img src="images/Mockup.png" alt="">
+        </div>
+    </div>
+    <div class="sec_one sub-one">
+        <div class="container">
+            <div class="users">
+                <div class="h1">TimeNow is used by the most influential people.</div>
+                <div class="images">
+                    <img src="images/UA8.png" alt="">
+                    <img src="images/UA7.png" alt="">
+                    <img src="images/UA6.png" alt="">
+                    <img src="images/UA5.png" alt="">
+                    <img src="images/UA4.png" alt="">
+                    <img src="images/UA3.png" alt="">
+                    <img src="images/UA1.png" alt="">
+                </div>
+            </div>
+            <div class="text"> 
+            <div class="subText">
+                The most influential people on Facebook,Twitter,and instagram are using 
+                TweetNow to schedule posts when their followers are most active.
+            </div>
+            <div class="subText">
+                They generally receive 23% more engagement than people who do not.
+            </div>
+            </div>
+        </div>
+    </div>   
+    <div class="sec_two">
+        <div class="container">
+            <div class="pac">
+                <div class="blueB">
+                    Unified Dashboard
+                </div>
+                <div class="mainHead">
+                    Customizable dashbord for all platforms.
+                </div>
+                <p class="subText">
+                    Use Twitter and Isntagram but not LinkedIn? You can customize you dashboard to your liking. You can even Schedule the same post to individual platforms insted of all platforms.
+                </p>
+                <div class="button">
+                    Start Scheduling
+                </div>
+            </div>
+            <div class="pac">
+                <div class="blueB">
+                    Enhanced Analytics
+                </div>
+                <div class="mainHead">
+                    Real-time data that tells you everything.
+                </div>
+                <p class="subText">
+                    Get detailed reports of what's and what isn't. <br>
+                    Engagement rates, impressions, views,and much more data is avaliable to you through our in-depth dashboard tool.
+                </p>
+                <span href="#">View Live Demo
+                <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="pricingPage">
+        <div class="container"> 
+        <div class="h1">Flexible Plans for Everyone.</div>
+        <div class="subText p">
+            Our plans are made for Everyone. Whether you're just starting out on social
+            media, or have been on there for a long time, we have a plan that's right for you.
+        </div>
+        <div class="billed" >
+            <p class="Mon">Billed Monthly</p>
+            <div class="slec"   onclick="billedFun()" >
+                <div class="circle"></div>
+            </div>
+            <p class="Year">Billed Yearly</p>
+        </div>
+        <div class="package">
+            <div class="box first">
+                <div class="text">
+                    <div class="price">
+                        <span class="nu">$4</span>
+                        <span class="mo">/mo</span>
+                    </div>
+                    <p class="subText">perfect paln if you're just starting out.</p>
+                </div>
+                <div class="feat">
+                    <div>
+                        <img src="images/Checkmark.svg" alt="Checkmark">
+                        <p class="subText">LinkedIn Integration</p>
+                    </div>
+                    <div>
+                        <img src="images/Checkmark.svg" alt="Checkmark">
+                        <p class="subText">Twitter Integration</p>
+                    </div>
+                    <div>
+                        <img src="images/Checkmark.svg" alt="Checkmark">
+                        <p class="subText">Real-time Analytics</p>
+                    </div>
+                        
+                </div>
+                <div class="button subscribeButton">
+                        Subscribe Now
+                    </div>
+            </div>
+            <div class="box sec">
+                <div class="text">
+                    <div class="price">
+                        <span class="nu">$12</span>
+                        <span class="mo">/mo</span>
+                    </div>
+                    <p class="subText">perfect paln if you're a heavy user of social media.</p>
+                </div>
+                <div class="feat">
+                    <div>
+                        <img src="images/Checkmark.svg" alt="Checkmark">
+                        <p class="subText">LinkedIn Integration</p>
+                    </div>
+                    <div>
+                        <img src="images/Checkmark.svg" alt="Checkmark">
+                        <p class="subText">Twitter Integration</p>
+                    </div>
+                    <div>
+                        <img src="images/Checkmark.svg" alt="Checkmark">
+                        <p class="subText">Instagram Integration</p>
+                    </div>
+                    <div>
+                        <img src="images/Checkmark.svg" alt="Checkmark">
+                        <p class="subText">Real-time Analytics</p>
+                    </div>
+                    
+                </div>
+            <div class="button subscribeButton">
+                        Subscribe Now
+                    </div>
+            </div>
+            <div class="box last">
+                <div class="text">
+                    <div class="price">
+                        <span class="nu">$7</span>
+                        <span class="mo">/mo</span>
+                    </div>
+                    <p class="subText">perfect paln if you're just starting out.</p>
+                </div>
+                <div class="feat">
+                    <div>
+                        <img src="images/Checkmark.svg" alt="Checkmark">
+                        <p class="subText">LinkedIn Integration</p>
+                    </div>
+                    <div>
+                        <img src="images/Checkmark.svg" alt="Checkmark">
+                        <p class="subText">Twitter Integration</p>
+                    </div>
+                    
+                </div>
+                <div class="button subscribeButton">
+                            Subscribe Now
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="images/Logo.svg">
+            </div>
+                <div class="links">
+                    <div>
+                        <h3>Product</h3>
+                        <a href="#">Homepage</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Features</a>
+                    </div>
+                    <div>
+                        <h3>Help</h3>
+                        <a href="#">Live Chat</a>
+                        <a href="#">Send Email</a>
+                    <a href="#">FAQ</a>
+                    </div>
+                    <div>
+                        <h3>Company</h3>
+                        <a href="#">About</a>
+                        <a href="#">Customers</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="lastch">
+                        <h3>Try TweetNow</h3>
+                        <form class="input">
+                            <input class="em" type="email" placeholder="Email Address"> 
+                            <p class="button" >Start Scheduling</p>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
